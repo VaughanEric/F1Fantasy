@@ -1,0 +1,249 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+
+/* Title Bar */
+.title {
+    width: 100vw;
+    background-color: rgb(225, 2, 0);
+}
+
+.title-f1, .title-pt2 {
+    font-family: "Russo One", sans-serif;
+    font-size: 3rem;
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+
+.title-f1 {
+    padding: 1rem;
+    font-style: italic;
+}
+
+.title-pt2 {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.flags-img {
+    position: absolute;
+    top: 1.25rem;
+    right: 1rem;
+    height: 3rem;
+}
+
+.chart {
+    background-color: rgb(245,245,245);
+    padding-right: 1rem;
+}
+
+
+
+/* Driver Poll */
+.poll-section {
+    background-color: #151515;
+}
+
+.dr-poll {
+    display: inline-block;
+    width: 35vw;
+}
+
+.dr-results {
+    display: inline-block;
+    width: 65vw;
+}
+
+.dr-form {
+    text-align: center;
+    margin: 5vh 0 2vh 10vw;
+    width: 15vw !important;
+    background-color: white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.custom-btn, .submit-btn {
+    font-family: "Titillium Web";
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    border-radius: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left-width: 0.25rem;
+    background-color: white;
+    width: 15vw !important;
+}
+
+.submit-btn {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 15vw;
+    margin: 0 0 5vh 10vw;
+    border-left-color: white;
+    background-color: rgb(225, 2, 0);
+    color: white;
+}
+.submit-btn:hover {
+    background-color: rgb(144, 0, 0);
+}
+.submit-btn:active {
+    background-color: black;
+    /* color: rgb(225, 2, 0); */
+}
+
+.first-btn {
+    border-top-left-radius: 0.5rem;
+}
+
+.last-btn {
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+
+/* Button Colors */
+#Verstappen.active, #Hamilton.active, #Norris.active, #Perez.active, #Bottas.active,
+#Leclerc.active, #Sainz.active, #Ricciardo.active, #Gasly.active, #Alonso.active,
+#Vettel.active, #Schumacher.active, #Stroll.active, #Raikkonen.active, #Giovinazzi.active,
+#Tsunoda.active, #Ocon.active, #Russell.active, #Mazepin.active, #Latifi.active {
+    color: white;
+    width: 20vw !important;
+    letter-spacing: 1px;
+    transition: width 0.5s ease-out, letter-spacing 0.5s ease-out;
+}
+
+#Verstappen, #Perez {
+    border-left-color: rgb(6, 0, 239);
+}
+#Verstappen:hover, #Perez:hover {
+    background-color: rgba(6, 0, 239, 0.1);
+}
+#Verstappen.active, #Perez.active {
+    border-left-color: rgb(6, 0, 239);
+    background-color: rgb(6, 0, 239);
+    border-left-color: rgb(6, 0, 239) !important;
+}
+
+#Hamilton, #Bottas {
+    border-left-color: rgb(0, 210, 190);
+}
+#Hamilton:hover, #Bottas:hover {
+    background-color: rgba(0, 210, 190, 0.1);
+}
+#Hamilton.active, #Bottas.active {
+    border-left-color: rgb(0, 210, 190);
+    background-color: rgb(0, 210, 190);
+    border-left-color: rgb(0, 210, 190) !important;
+}
+
+#Norris, #Ricciardo {
+    border-left-color: rgb(255, 152, 0);
+}
+#Norris:hover, #Ricciardo:hover {
+    background-color: rgba(255, 152, 0, 0.1);
+}
+#Norris.active, #Ricciardo.active {
+    border-left-color: rgb(255, 152, 0);
+    background-color: rgb(255, 152, 0);
+    border-left-color: rgb(255, 152, 0) !important;
+}
+
+#Leclerc, #Sainz {
+    border-left-color: rgb(220, 0, 0);
+}
+#Leclerc:hover, #Sainz:hover {
+    background-color: rgba(220, 0, 0, 0.1);
+}
+#Leclerc.active, #Sainz.active {
+    border-left-color: rgb(220, 0, 0);
+    background-color: rgb(220, 0, 0);
+    border-left-color: rgb(220, 0, 0) !important;
+}
+
+#Gasly, #Tsunoda {
+    border-left-color: rgb(43, 69, 98);
+}
+#Gasly:hover, #Tsunoda:hover {
+    background-color: rgba(43, 69, 98, 0.1);
+}
+#Gasly.active, #Tsunoda.active {
+    border-left-color: rgb(43, 69, 98);
+    background-color: rgb(43, 69, 98);
+    border-left-color: rgb(43, 69, 98) !important;
+}
+
+#Alonso, #Ocon {
+    border-left-color: rgb(0, 144, 255);
+}
+#Alonso:hover, #Ocon:hover {
+    background-color: rgba(0, 144, 255, 0.1);
+}
+#Alonso.active, #Ocon.active {
+    border-left-color: rgb(0, 144, 255);
+    background-color: rgb(0, 144, 255);
+    border-left-color: rgb(0, 144, 255) !important;
+}
+
+#Vettel, #Stroll {
+    border-left-color: rgb(0, 111, 98);
+}
+#Vettel:hover, #Stroll:hover {
+    background-color: rgba(0, 111, 98, 0.1);
+}
+#Vettel.active, #Stroll.active {
+    border-left-color: rgb(0, 111, 98);
+    background-color: rgb(0, 111, 98);
+    border-left-color: rgb(0, 111, 98) !important;
+}
+
+#Raikkonen, #Giovinazzi {
+    border-left-color: rgb(144, 0, 0);
+}
+#Raikkonen:hover, #Giovinazzi:hover {
+    background-color: rgba(144, 0, 0, 0.1);
+}
+#Raikkonen.active, #Giovinazzi.active {
+    border-left-color: rgb(144, 0, 0);
+    background-color: rgb(144, 0, 0);
+    border-left-color: rgb(144, 0, 0) !important;
+}
+
+#Schumacher, #Mazepin {
+    border-left-color: rgb(0, 0, 0);
+}
+#Schumacher:hover, #Mazepin:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#Schumacher.active, #Mazepin.active {
+    border-left-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0) !important;
+}
+
+#Russell, #Latifi {
+    border-left-color: rgb(0, 90, 255);
+}
+#Russell:hover, #Latifi:hover {
+    background-color: rgba(0, 90, 255, 0.1);
+}
+#Russell.active, #Latifi.active {
+    border-left-color: rgb(0, 90, 255);
+    background-color: rgb(0, 90, 255);
+    border-left-color: rgb(0, 90, 255) !important;
+}
+
+
+
+
