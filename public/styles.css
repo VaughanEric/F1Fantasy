@@ -38,9 +38,16 @@ body {
     height: 3rem;
 }
 
+
+
+/* Drivers' charts */
 .chart {
     background-color: rgb(245,245,245);
     padding-right: 1rem;
+}
+
+.chart canvas {
+    padding-bottom: 0.5rem;
 }
 
 
@@ -55,14 +62,25 @@ body {
     width: 35vw;
 }
 
+.dr-poll-title {
+    font-family: "Titillium Web";
+    font-size: 30px;
+    color: white;
+    margin: 5vh 0 2vh 10vw;
+}
+
 .dr-results {
     display: inline-block;
-    width: 65vw;
+    position: relative;
+    margin-right: 10vw;
+    margin-left: 5vw;
+    height: 55rem;
+    width: 50vw;
 }
 
 .dr-form {
     text-align: center;
-    margin: 5vh 0 2vh 10vw;
+    margin: 0 0 2vh 10vw;
     width: 15vw !important;
     background-color: white;
     border-top-left-radius: 0.5rem;
@@ -100,7 +118,6 @@ body {
 }
 .submit-btn:active {
     background-color: black;
-    /* color: rgb(225, 2, 0); */
 }
 
 .first-btn {
@@ -243,6 +260,8 @@ body {
     background-color: rgb(0, 90, 255);
     border-left-color: rgb(0, 90, 255) !important;
 }
+
+
 
 
 

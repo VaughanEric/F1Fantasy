@@ -528,7 +528,7 @@ function Chart() {
             <div className="chart"> 
                 <Line data={drData} options={drOptions} />
             </div>
-            <DrPoll drivers={drNames} colors={drColors} />
+            <DrPoll drivers={drNames} colors={drColors} bgColors={drBgColors} />
             <div className="chart">
                 <Line data={crData} options={crOptions} />
             </div>

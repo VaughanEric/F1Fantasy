@@ -9,6 +9,8 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
     "chart.js": "^3.4.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.4",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-chartjs-2": "^3.0.4",
@@ -40,5 +42,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaughanEric/F1Fantasy.git"
+  },
+  "author": "Eric Vaughan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaughanEric/F1Fantasy/issues"
+  },
+  "homepage": "https://github.com/VaughanEric/F1Fantasy#readme"
 }
