@@ -9,13 +9,14 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
     "chart.js": "^3.4.1",
-    "express": "^4.17.1",
     "mongoose": "^5.13.4",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
     "save": "^2.4.0",
     "web-vitals": "^1.1.2"
   },
@@ -55,5 +56,5 @@
   "bugs": {
     "url": "https://github.com/VaughanEric/F1Fantasy/issues"
   },
-  "homepage": "https://github.com/VaughanEric/F1Fantasy#readme"
+  "homepage": "/"
 }
