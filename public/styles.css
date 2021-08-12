@@ -285,5 +285,17 @@ body {
 
 
 
+/* Footer */
+.footer {
+    background-color: #151515;
+    font-family: "Titillium Web";
+    font-size: 0.8rem !important;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0 0.5rem 0;
+}
+
+
 
 

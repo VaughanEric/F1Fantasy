@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import axios from 'axios';
 
 import Poll from './Poll';
 import fantasyapiRetrieve from '../services/fantasyapiRetrieve';
@@ -283,10 +282,10 @@ function Chart() {
             </div>
             <Poll 
                 data={drPollData}
-                idNames={drLNames} 
+                playerClass={"driver"} 
+                idNames={drLNames}
+                submitIdName={"submit-drivers"}
                 displayNames={drNames} 
-                colors={drColors} 
-                bgColors={drBgColors} 
                 position={"Driver"} 
             />
             <div className="chart">
@@ -294,12 +293,15 @@ function Chart() {
             </div>
             <Poll
                 data={crPollData}
-                idNames={crTeamAbbr} 
+                playerClass={"constructor"}
+                idNames={crTeamAbbr}
+                submitIdName={"submit-contructors"} 
                 displayNames={crNames} 
-                colors={crColors} 
-                bgColors={crBgColors} 
                 position={"Constructor"} 
             />
+            <div className="footer">
+                <p>Site by Eric Vaughan (2021)</p>
+            </div>
         </div>
     );
 }
