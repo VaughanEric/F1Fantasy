@@ -2,6 +2,7 @@
 This is the frontend of my F1 fantasy data tracker. <br />
 The front end utlizies React, Javascript, and CSS. <br />
 <br />
+<br />
 
 # Getting Started with Create React App
 
