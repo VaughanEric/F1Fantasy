@@ -1,6 +1,9 @@
 # F1 Fantasy Frontend
 This is the frontend of my F1 fantasy data tracker. <br />
-The front end utlizies React, JavaScript, and CSS. <br />
+The front end utlizies React, JavaScript, and CSS.
+
+## Important Note
+Do not forget to also clone the backend of my F1 fantasy data tracker. <br />
 <br />
 <br />
 
